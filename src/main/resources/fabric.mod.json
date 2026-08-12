@@ -8,8 +8,8 @@
     "Ahmad"
   ],
   "contact": {
-    "homepage": "https://github.com/ahmad/SkinChangerBD",
-    "sources": "https://github.com/ahmad/SkinChangerBD"
+    "homepage": "https://notxgamer.site.je/",
+    "sources": "https://notxgamer.site.je/"
   },
   "license": "MIT",
   "environment": "*",
@@ -32,9 +32,9 @@
     }
   ],
   "dependencies": {
-    "fabricloader": ">=0.15.11",
+    "fabricloader": "*",
     "fabric-api": "*",
-    "minecraft": "~1.21",
+    "minecraft": "~1.21.1",
     "java": ">=21"
   },
   "suggests": {
