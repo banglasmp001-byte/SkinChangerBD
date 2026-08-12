@@ -1,0 +1,32 @@
+# Gradle
+.gradle/
+build/
+out/
+
+# Eclipse
+.classpath
+.project
+.settings/
+bin/
+
+# IntelliJ IDEA
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# VS Code
+.vscode/
+
+# Fabric
+run/
+
+# macOS
+.DS_Store
+
+# Wrapper jar (downloaded by CI)
+# Uncomment the next line ONLY if you choose to commit the wrapper jar:
+# !gradle/wrapper/gradle-wrapper.jar
+
+# Logs
+*.log

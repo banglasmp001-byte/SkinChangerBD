@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "id": "skinchangebd",
+  "version": "${version}",
+  "name": "SkinChangerBD",
+  "description": "Manage and change your Minecraft Skin and Cape, with multiplayer synchronization. Created by Ahmad.",
+  "authors": [
+    "Ahmad"
+  ],
+  "contact": {
+    "homepage": "https://github.com/ahmad/SkinChangerBD",
+    "sources": "https://github.com/ahmad/SkinChangerBD"
+  },
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.ahmad.skinchangebd.SkinChangerBD"
+    ],
+    "client": [
+      "com.ahmad.skinchangebd.client.SkinChangerBDClient"
+    ],
+    "modmenu": [
+      "com.ahmad.skinchangebd.gui.ModMenuIntegration"
+    ]
+  },
+  "mixins": [
+    "skinchangebd.mixins.json",
+    {
+      "config": "skinchangebd.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "dependencies": {
+    "fabricloader": ">=0.15.11",
+    "fabric-api": "*",
+    "minecraft": "~1.21",
+    "java": ">=21"
+  },
+  "suggests": {
+    "modmenu": "*"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "skinchangebd.screen.title": "SkinChangerBD",
+
+  "skinchangebd.tab.skin":     "Skin",
+  "skinchangebd.tab.cape":     "Cape",
+  "skinchangebd.tab.sync":     "Sync",
+  "skinchangebd.tab.settings": "Settings",
+
+  "skinchangebd.button.apply":        "Apply",
+  "skinchangebd.button.delete":       "Delete",
+  "skinchangebd.button.reset":        "Reset",
+  "skinchangebd.button.refresh":      "Refresh",
+  "skinchangebd.button.import":       "Import",
+  "skinchangebd.button.close":        "Close",
+  "skinchangebd.button.confirm":      "Confirm",
+  "skinchangebd.button.cancel":       "Cancel",
+  "skinchangebd.button.model":        "Model",
+  "skinchangebd.button.toggle_sync":  "Multiplayer Sync",
+  "skinchangebd.button.request_sync": "Request Sync",
+  "skinchangebd.button.open_folder":  "Open Folder",
+
+  "skinchangebd.label.skins":         "Your Skins",
+  "skinchangebd.label.capes":         "Your Capes",
+  "skinchangebd.label.active":        "Active",
+  "skinchangebd.label.no_skin":       "No skin selected",
+  "skinchangebd.label.no_cape":       "No cape selected",
+  "skinchangebd.label.no_skins":      "No skins found.\nDrop a PNG into the skin folder.",
+  "skinchangebd.label.no_capes":      "No capes found.\nDrop a PNG into the cape folder.",
+  "skinchangebd.label.apply_preview": "(Apply to preview)",
+
+  "skinchangebd.status.skin_applied": "Skin applied!",
+  "skinchangebd.status.skin_deleted": "Skin deleted.",
+  "skinchangebd.status.skin_reset":   "Skin reset to default.",
+  "skinchangebd.status.cape_applied": "Cape applied!",
+  "skinchangebd.status.cape_deleted": "Cape deleted.",
+  "skinchangebd.status.cape_reset":   "Cape removed.",
+  "skinchangebd.status.import_failed":"Import failed — check the file.",
+
+  "skinchangebd.sync.server_supported":     "✔ Server has SkinChangerBD — sync active",
+  "skinchangebd.sync.server_not_supported": "✘ Server does not have SkinChangerBD",
+  "skinchangebd.sync.install_hint":         "Install SkinChangerBD on the server to enable sync.",
+  "skinchangebd.sync.enabled":              "Sync Enabled",
+  "skinchangebd.sync.how_it_works":         "How synchronization works:",
+  "skinchangebd.sync.how_step1":            "1. You apply a skin/cape",
+  "skinchangebd.sync.how_step2":            "2. Your client sends the texture hash to the server",
+  "skinchangebd.sync.how_step3":            "3. Other SkinChangerBD clients receive the texture",
+  "skinchangebd.sync.how_step4":            "4. They see your custom skin/cape in-game",
+
+  "skinchangebd.option.on":  "ON",
+  "skinchangebd.option.off": "OFF",
+
+  "skinchangebd.settings.mod_enabled":     "Mod Enabled",
+  "skinchangebd.settings.skin_enabled":    "Skin System",
+  "skinchangebd.settings.cape_enabled":    "Cape System",
+  "skinchangebd.settings.preview_enabled": "3D Preview",
+  "skinchangebd.settings.keybind_info":    "Open GUI key",
+  "skinchangebd.settings.rebind_hint":     "Rebind in Options → Controls → SkinChangerBD",
+
+  "skinchangebd.import.title_skin":      "Import Skin",
+  "skinchangebd.import.title_cape":      "Import Cape",
+  "skinchangebd.import.instruction":     "Paste or type the full path to your PNG file:",
+  "skinchangebd.import.or_drop_in":      "Or copy the PNG directly into:",
+  "skinchangebd.import.path_hint":       "File path",
+  "skinchangebd.import.path_placeholder":"e.g. C:\\Users\\You\\skin.png",
+
+  "key.category.skinchangebd": "SkinChangerBD",
+  "key.skinchangebd.open_gui": "Open SkinChangerBD"
+}
